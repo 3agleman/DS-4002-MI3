@@ -1,4 +1,4 @@
-To obtain our base dataset dataset:
+To obtain our base dataset:
 
 1. Go to https://www.kaggle.com/datasets/najzeko/steam-reviews-2021
 2. Download the data (it will be approximately eight gigabytes, so expect long download times). 
