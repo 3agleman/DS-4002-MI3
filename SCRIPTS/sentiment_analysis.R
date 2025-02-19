@@ -73,5 +73,10 @@ t.test(notRecommendedGames$review_sentiment, alternative = "less", mu = 0 )
 
 # RESOURCES USED: 
 # https://www.statology.org/random-sample-in-r/
+# Bobbitt, “How to Select Random Samples in R (With Examples),” Statology, Oct. 22, 2020. https://www.statology.org/random-sample-in-r/
+
 # https://stackoverflow.com/questions/27044727/removing-characters-from-string-in-r
+# ben_aaron, “Removing characters from string in R,” Stack Overflow, Nov. 20, 2014. https://stackoverflow.com/questions/27044727/removing-characters-from-string-in-r
+
 # https://cran.r-project.org/web/packages/syuzhet/vignettes/syuzhet-vignette.html
+# M. Jockers, “Introduction to the Syuzhet Package,” R-project.org, Dec. 13, 2017. https://cran.r-project.org/web/packages/syuzhet/vignettes/syuzhet-vignette.html
