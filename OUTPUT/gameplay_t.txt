@@ -1,0 +1,124 @@
+Two-sample t-test results comparing binary sentiment for reviews with vs. without each gameplay element:
+   Gameplay Element  n_with  n_without  Positive Rate With  \
+10            story     524       7765            0.895038   
+0          graphics     298       7991            0.899329   
+1        soundtrack     106       8183            0.915094   
+4       multiplayer     169       8120            0.899408   
+2     replayability      49       8240            0.918367   
+11        mechanics     168       8121            0.869048   
+7        animations      35       8254            0.885714   
+9          controls      88       8201            0.863636   
+8       progression      50       8239            0.760000   
+6        difficulty     102       8187            0.784314   
+5            quests      51       8238            0.862745   
+3            combat     188       8101            0.797872   
+
+    Positive Rate Without  t-statistic       p-value  
+10               0.816098     5.596528  3.243088e-08  
+0                0.818170     4.512592  8.881534e-06  
+1                0.819870     3.458645  7.728259e-04  
+4                0.819458     3.388351  8.641989e-04  
+2                0.820510     2.462091  1.737010e-02  
+11               0.820096     1.850685  6.589078e-02  
+7                0.820814     1.185895  2.437886e-01  
+9                0.820632     1.161183  2.486614e-01  
+8                0.821459    -1.004927  3.198224e-01  
+6                0.821546    -0.904938  3.676068e-01  
+5                0.820830     0.858057  3.948947e-01  
+3                0.821627    -0.800536  4.243751e-01  
+according to our t-test, the observed difference in the proportion
+of positive reviews between the group that mentions the gameplay element and
+the group that doesn’t isn’t large enough to rule out the possibility that it
+occurred just by random chance. In other words, we don't have strong statistical
+evidence to say that the presence or absence of that gameplay element has a real
+effect on whether reviews are positive
+
+Interpretation of t-test results:
+Gameplay Element: 'graphics'
+   - Reviews with element (n = 298): positive rate = 0.899
+   - Reviews without element (n = 7991): positive rate = 0.818
+   - t-statistic: 4.513
+   - p-value: 8.88e-06
+   => The positive t-value indicates that reviews mentioning this element have
+a significantly higher proportion of positive reviews compared to those that do not.
+
+Gameplay Element: 'soundtrack'
+   - Reviews with element (n = 106): positive rate = 0.915
+   - Reviews without element (n = 8183): positive rate = 0.820
+   - t-statistic: 3.459
+   - p-value: 7.73e-04
+   => The positive t-value indicates that reviews mentioning this element have
+a significantly higher proportion of positive reviews compared to those that do not.
+
+Gameplay Element: 'replayability'
+   - Reviews with element (n = 49): positive rate = 0.918
+   - Reviews without element (n = 8240): positive rate = 0.821
+   - t-statistic: 2.462
+   - p-value: 1.74e-02
+   => The positive t-value indicates that reviews mentioning this element have
+a significantly higher proportion of positive reviews compared to those that do not.
+
+Gameplay Element: 'combat'
+   - Reviews with element (n = 188): positive rate = 0.798
+   - Reviews without element (n = 8101): positive rate = 0.822
+   - t-statistic: -0.801
+   - p-value: 4.24e-01
+   => The difference in positive review rates is not statistically significant.
+
+Gameplay Element: 'multiplayer'
+   - Reviews with element (n = 169): positive rate = 0.899
+   - Reviews without element (n = 8120): positive rate = 0.819
+   - t-statistic: 3.388
+   - p-value: 8.64e-04
+   => The positive t-value indicates that reviews mentioning this element have
+a significantly higher proportion of positive reviews compared to those that do not.
+
+Gameplay Element: 'quests'
+   - Reviews with element (n = 51): positive rate = 0.863
+   - Reviews without element (n = 8238): positive rate = 0.821
+   - t-statistic: 0.858
+   - p-value: 3.95e-01
+   => The difference in positive review rates is not statistically significant.
+
+Gameplay Element: 'difficulty'
+   - Reviews with element (n = 102): positive rate = 0.784
+   - Reviews without element (n = 8187): positive rate = 0.822
+   - t-statistic: -0.905
+   - p-value: 3.68e-01
+   => The difference in positive review rates is not statistically significant.
+
+Gameplay Element: 'animations'
+   - Reviews with element (n = 35): positive rate = 0.886
+   - Reviews without element (n = 8254): positive rate = 0.821
+   - t-statistic: 1.186
+   - p-value: 2.44e-01
+   => The difference in positive review rates is not statistically significant.
+
+Gameplay Element: 'progression'
+   - Reviews with element (n = 50): positive rate = 0.760
+   - Reviews without element (n = 8239): positive rate = 0.821
+   - t-statistic: -1.005
+   - p-value: 3.20e-01
+   => The difference in positive review rates is not statistically significant.
+
+Gameplay Element: 'controls'
+   - Reviews with element (n = 88): positive rate = 0.864
+   - Reviews without element (n = 8201): positive rate = 0.821
+   - t-statistic: 1.161
+   - p-value: 2.49e-01
+   => The difference in positive review rates is not statistically significant.
+
+Gameplay Element: 'story'
+   - Reviews with element (n = 524): positive rate = 0.895
+   - Reviews without element (n = 7765): positive rate = 0.816
+   - t-statistic: 5.597
+   - p-value: 3.24e-08
+   => The positive t-value indicates that reviews mentioning this element have
+a significantly higher proportion of positive reviews compared to those that do not.
+
+Gameplay Element: 'mechanics'
+   - Reviews with element (n = 168): positive rate = 0.869
+   - Reviews without element (n = 8121): positive rate = 0.820
+   - t-statistic: 1.851
+   - p-value: 6.59e-02
+   => The difference in positive review rates is not statistically significant.
