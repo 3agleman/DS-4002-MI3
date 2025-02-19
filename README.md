@@ -36,15 +36,17 @@ This repository contains the code, data, and output for our data science project
   - `LICENSE.md` → MIT License  
 
 📂 **DATA/**  
-  - `steam_reviews_with_gameplay_elements.csv` → Processed dataset with gameplay element extraction  
+  - `final_steam_reviews.csv` → Merged dataset with gameplay elements and sentiment scores
+  - `steam_reviews_with_gameplay_elements.csv` → Processed dataset with gameplay element extraction
   - `sentiment_analysis_results.csv` → R sentiment analysis results  
-  - `final_steam_reviews.csv` → Merged dataset with gameplay elements and sentiment scores  
+  - `sentiment_data.csv` → Orginial sentiment scores
+  - `truncated_data_cleaned.csv` → Orginial truncated data that was worked with
 
 📂 **SCRIPTS/**  
-  - `gameplay_element_extraction.py` → Python script for Named Entity Recognition (NER) to extract gameplay elements  
+  - `final_data_work.ipynb` → Python notebook performing statistical t-tests on sentiment scores and gameplay elements, as well as visualization. 
+  - `clean_and_tokenize_data.ipynb` → Python notebook for Named Entity Recognition (NER) to extract gameplay elements  
   - `sentiment_analysis.R` → R script for sentiment analysis using `syuzhet`  
   - `visualizations.py` → Python script for sentiment and gameplay visualization  
-  - `t_tests.py` → Python script performing statistical t-tests on sentiment scores and gameplay elements  
 
 📂 **OUTPUT/**  
   - Figures and charts from our visualizations  
