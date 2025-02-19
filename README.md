@@ -17,3 +17,11 @@ This repository contains the code, data, and output for our data science project
 
 ## 2. Documentation Map
 
+## Citations
+
+### Sentiment Analysis
+Bobbitt, “How to Select Random Samples in R (With Examples),” Statology, Oct. 22, 2020. https://www.statology.org/random-sample-in-r/
+
+ben_aaron, “Removing characters from string in R,” Stack Overflow, Nov. 20, 2014. https://stackoverflow.com/questions/27044727/removing-characters-from-string-in-r
+
+M. Jockers, “Introduction to the Syuzhet Package,” R-project.org, Dec. 13, 2017. https://cran.r-project.org/web/packages/syuzhet/vignettes/syuzhet-vignette.html
