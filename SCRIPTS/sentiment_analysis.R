@@ -6,6 +6,9 @@ data<-read.csv("steam_reviews_english.csv")
 
 data<- data[sample(nrow(data), size = 10000), ]
 
+# For loading the truncated data from above, for brevity
+data<- read.csv("truncated_data.csv")
+
 # Loading the review texts as a Corpus
 library(tm)
 corpus1<-iconv(data$review)
@@ -28,7 +31,9 @@ data$review_sentiment<-get_sentiment(corpus1)
 library(ggplot2)
 
 sentiments<-ggplot(data)+
-  geom_histogram(aes(x = review_sentiment))
+  geom_histogram(aes(x = review_sentiment))+
+  labs(x = "Sentiment Score", y = "Review Count",
+       title = "Distribution of Sentiment Scores for Steam Review Data")
 sentiments
 
 library(dplyr)
@@ -48,7 +53,9 @@ notrec<-10000-rec
 recommended_c<-c(rec, notrec, NA)
 
 # Compare recommendations to sentiments
-data.table(recommended_c, sentiments_c)
+library(data.table)
+data.frame(recommended_c, sentiments_c,
+           row.names = c("Positive","Negative","Neutral"))
 
 # T-tests
 
