@@ -118,8 +118,8 @@ This project examines how different **gameplay elements impact review sentiment*
 Our results highlight which game elements contribute most to **positive or negative reviews** and provide **data-driven insights** into player preferences.
 
 ## **Instructions for Reproducing Results**
-- Download truncated_data_cleaned.csv in the DATA directory
-- Run the data through the final_data_work.ipynb
+- Download truncated_data_cleaned.csv in the `DATA` directory
+- Run the data through the final_data_work.ipynb in the `SCRIPS` directory
     - This runs through the data and produces visuals
 - We've decided to not give the raw data due to its size and how long it takes.
 
